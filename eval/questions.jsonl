@@ -1,0 +1,18 @@
+{"question": "When and where was Northwind Robotics founded?", "expected_keywords": ["2019", "Portland"]}
+{"question": "What are Northwind's warehouse robots called?", "expected_keywords": ["Draylin"]}
+{"question": "Who is the CEO of Northwind Robotics?", "expected_keywords": ["Mara Velasquez"]}
+{"question": "Which deployment strategy does Northwind use for backend services?", "expected_keywords": ["blue-green"]}
+{"question": "How much traffic goes to the canary and for how long?", "expected_keywords": ["5 percent", "30 minutes"]}
+{"question": "What command do engineers run to roll back a bad deployment?", "expected_keywords": ["nwctl rollback"]}
+{"question": "When does the on-call rotation hand off each week?", "expected_keywords": ["Monday", "10:00"]}
+{"question": "What is the acknowledgement SLA for a SEV1 incident?", "expected_keywords": ["15-minute"]}
+{"question": "How soon must a blameless postmortem be published after an incident?", "expected_keywords": ["3 business days"]}
+{"question": "What is the name of the telemetry job queue?", "expected_keywords": ["Conveyor"]}
+{"question": "How many times is a failed ingestion job retried before dead-lettering?", "expected_keywords": ["retried up to 3"]}
+{"question": "What is the peak throughput of the ingestion pipeline?", "expected_keywords": ["12,000 events"]}
+{"question": "Which database is the primary datastore?", "expected_keywords": ["PostgreSQL 16"]}
+{"question": "How does Northwind do similarity search over maintenance logs?", "expected_keywords": ["pgvector"]}
+{"question": "When do database backups run?", "expected_keywords": ["02:00 UTC"]}
+{"question": "Where are application secrets stored and how often are they rotated?", "expected_keywords": ["rotated every 90 days"]}
+{"question": "How do employees sign in to internal systems?", "expected_keywords": ["Okta"]}
+{"question": "How often are access reviews conducted?", "expected_keywords": ["conducted quarterly"]}
